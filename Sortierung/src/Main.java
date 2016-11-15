@@ -8,10 +8,15 @@ public class Main {
 //		bubble.sortiere();
 //		bubble.printList();
 		
-		SelectionSort ss = new SelectionSort();
-		ss.printList();
-		ss.sortiere();
-		ss.printList();
+//		SelectionSort ss = new SelectionSort();
+//		ss.printList();
+//		ss.sortiere();
+//		ss.printList();
+		
+		InsertSort is = new InsertSort();
+		is.printList();
+		is.sortieren();
+		is.printList();
 
 	}
 

@@ -2,8 +2,6 @@ public class SelectionSort {
 
 	private int[] liste = { 12, 34, 2, 1, 0, 9, 5, 2, 3, 54 };
 
-	
-
 	public void sortiere() {
 		for (int i = 0; i < liste.length - 1; i++) {
 			int minpos = getErsteStelle(i);
@@ -24,12 +22,12 @@ public class SelectionSort {
 		liste[i] = liste[j];
 		liste[j] = temp;
 	}
-	
+
 	public void printList() {
-		String ls = "";
-		for (int i : liste) {
-			ls = ls + ", " + i;
+		String gg = "" + liste[0];
+		for (int i = 1; i < liste.length; i++) {
+			gg = gg + ", " + liste[i];
 		}
-		System.out.println(ls);
+		System.out.println(gg);
 	}
 }

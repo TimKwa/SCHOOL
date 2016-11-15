@@ -38,11 +38,11 @@ public class BubbleSort {
 	}
 
 	public void printList() {
-		String ls = "";
-		for (int i : liste) {
-			ls = ls + ", " + i;
+		String gg = "" + liste[0];
+		for (int i = 1; i < liste.length; i++) {
+			gg = gg + ", " + liste[i];
 		}
-		System.out.println(ls);
+		System.out.println(gg);
 	}
 
 }
