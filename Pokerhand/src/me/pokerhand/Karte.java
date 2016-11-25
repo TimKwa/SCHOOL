@@ -26,6 +26,12 @@ public class Karte {
 	@Override
 	public String toString() {
 		return "Karte [wert=" + wert + ", typ=" + typ + "]";
+		дц
+		ц
+		
+		дц+
+		
+		
 	}
 	
 	
